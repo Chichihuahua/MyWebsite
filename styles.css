@@ -1,0 +1,54 @@
+@font-face {
+  src: url(fonts/Hind-Regular.ttf);
+  font-family: Hind-Regular;
+}
+
+@font-face {
+  src: url(fonts/Hind-Bold.ttf);
+  font-family: Hind-Bold;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: solid;
+}
+
+body {
+  background-color: #141618;
+}
+
+.text{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 75rem;
+  text-align: justify;
+  
+}
+
+.title{
+  text-align: left;
+  border-bottom: solid;
+}
+
+.p1{
+  margin: 10px 1.5em;
+}
+
+.center{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+footer{
+  border-top: dashed;
+}
+
+
+h1, h2, h3, p, footer, li {
+ color: #ffffff; /* #fff4e6 */ 
+  font-family: Hind-Regular, Georgia, 'Times New Roman', Times, serif, Times, serif;
+  
+  }
+  
