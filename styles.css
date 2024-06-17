@@ -8,9 +8,29 @@
   font-family: Hind-Bold;
 }
 
+:root{
+  --font-size: 4.5em;
+}
+
 h1 {
   text-align: center;
   border-bottom: solid;
+  font-size: var(--font-size);
+}
+
+h2 {
+  --font-size: 2em;
+  font-size: var(--font-size);
+}
+
+h3 {
+  --font-size: 1.5em;
+  font-size: var(--font-size);
+}
+
+p, li, footer {
+  --font-size: 1.254em;
+  font-size: var(--font-size);
 }
 
 body {
@@ -21,9 +41,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 75rem;
+  max-width: 70rem;
   text-align: justify;
-  
 }
 
 .title{
@@ -33,6 +52,7 @@ body {
 
 .p1{
   margin: 10px 1.5em;
+  
 }
 
 .center{
@@ -51,4 +71,3 @@ h1, h2, h3, p, footer, li {
   font-family: Hind-Regular, Georgia, 'Times New Roman', Times, serif, Times, serif;
   
   }
-  
